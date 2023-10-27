@@ -7,7 +7,13 @@
     font-weight: 400;
     color: #eee;
 }
-
+body{
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    width: 1350px;
+}
 nav {
     height: 3.2rem;
     display: flex;
