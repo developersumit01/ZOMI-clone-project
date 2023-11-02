@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #151515;
-    /* font-size: 20px; */
+    font-size: 20px;
     font-weight: 400;
     color: #eee;
 }
@@ -105,6 +105,9 @@ nav {
     
 }
 @media (max-width:550px) {
+    *{
+        font-size: unset;
+    }
     .logo img{
         height: 2rem;
     }
@@ -119,7 +122,12 @@ nav {
         padding: 0 10px 0 10px;
     }
     .singup{
-        gap: 0px;
+        gap: 8px;
     }
     
+}
+@media (max-width:300px) {
+    .connect-wallet{
+        display: none;
+    }
 }
