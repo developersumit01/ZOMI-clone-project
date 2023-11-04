@@ -13,7 +13,9 @@ footer {
     gap: 50px;
     margin-bottom: 25px;
 }
-
+.icons img:hover{
+    opacity: 1;
+}
 .footer-text {
     display: flex;
     justify-content: center;
@@ -23,6 +25,9 @@ footer {
 .footer-text label {
     font-size: 20px;
 
+}
+.icons img{
+    opacity: .5;
 }
 
 @media (max-width: 500px) {

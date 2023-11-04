@@ -157,7 +157,14 @@ nav {
 /* .text {
     width: max-content;
 } */
-
+@media (width>1000px) {
+    .menu-mobile{
+        display: none !important;
+    }
+    .upper-div{
+        display: none !important;
+    }
+}
 @media (max-width:1000px) {
     .menu{
         display: none;

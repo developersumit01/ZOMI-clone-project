@@ -139,6 +139,11 @@ label{
   border: 1px solid #4d4d4e;
   padding: 20px;
 }
+/* .tw{
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+} */
 
 .eco-button{
   display: flex;
@@ -147,7 +152,7 @@ label{
 }
 .buy{
   /* border: 1px solid red; */
-  background-color: #207a59;
+  background-color: #3eb489;
   width: 60px;
   text-align: center;
   height: 35px;
@@ -166,7 +171,26 @@ label{
   border-radius: 5px;
 }
 
+.buy:hover,.button-exchange:hover,.trade:hover{
+  background-color: #207a59;
+}
+.read-more:hover{
+  background-color: #9ba0b841;
+}
+.buy:active,.button-exchange:active,.trade:active,.read-more:active{
+scale: 1.1;
+border: none;
+}
+@media (max-width: 1000px) {
 
+  .eco-button{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .buy,.read-more{
+    width: unset;
+  }
+}
 @media (max-width: 500px) {
     .default-padding{
       padding: 62px 10px 0 10px;
